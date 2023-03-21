@@ -1,0 +1,274 @@
+
+body{
+    min-width: 600px;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather';
+ }
+ 
+ .top-container{
+     width: 100%;
+     background-color:#D7E9B9;
+     text-align: center;
+ }
+
+ .middle-container{
+    padding: 50px 100px 0;
+    background-color: #D7E9B9;
+} 
+ 
+ 
+ h1{
+     margin:0 auto 0 auto;
+     font-family: 'Sacramento', cursive;
+     font-size: 5rem;
+     color:#61876E;
+ }
+
+ h2{
+    color: #61876E;
+}
+
+h3{
+    color: #829460;
+}
+
+
+ .navbar{
+    width:65%;
+    margin: 0 auto 0 auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 15px;
+    padding-left: 35px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #61876E;
+    font-size: 15px;
+    font-family: 'Merriweather';
+}
+
+.background-navbar{
+    width:65%;
+    margin: 0 auto 0 auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.background-navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 15px;
+    padding-left: 35px;
+}
+
+.background-navbar ul li a{
+    text-decoration: none;
+    color: #F0997D;
+    font-size: 15px;
+    font-family: 'Merriweather';
+}
+
+
+.technica-img{
+    width:250px;
+    height:250px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+
+.studdy-img{
+    width:250px;
+    height:250px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+   
+
+.spanish-img{
+    width:250px;
+    height:250px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.sudoku-img{
+    width:250px;
+    height:250px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.project-row{
+    width:40%;
+    margin: 100px auto 100px auto;
+    text-align:center;
+    display: inline-block;
+    
+}
+ 
+p{
+    margin: 0 auto;
+    width: 70%;
+    line-height: 2;
+    color:#90A17D;
+}
+
+hr{
+    border: dotted #90A17D 6px ;
+    border-bottom: none;
+    width: 10%;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.bottom-container{
+    background-color:#829460 ;
+   padding: 50px 0 20px;
+}
+
+
+.skills-row{
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+}
+
+
+
+.skill-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 50px;
+}
+
+.compsci-img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-right: 50px;
+}
+
+.spanishcourse-img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+}
+
+
+.education{
+    display: inline-block;
+    text-align: left;
+}
+
+.umd-img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-right: 50px;
+}
+
+.education-intro{
+    display: inline-block;
+}
+
+.courses-row{
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+
+.background-hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color:#F0997D ;
+}
+
+.background-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #F0997D;
+    margin:0;
+}
+
+.background-bottom-container{
+    background-color:#A75D5D ;
+    padding: 50px 0 20px;
+}
+
+.background-middle-section{
+
+    padding-bottom: 100px;
+    background-color:#FFC3A1;
+    margin: 0;
+}
+
+.background-paragraph{
+    padding-bottom: 50px;
+    color: #A75D5D;
+}
+
+.background-h3{
+    color: #D3756B;
+}
+
+.background-top-section{
+    background-color: #FFC3A1;
+    margin: 0;
+}
+a:hover{
+    color: white;
+}
+
+a{
+    color: #829460;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

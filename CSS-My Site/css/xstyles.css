@@ -1,0 +1,151 @@
+
+body{
+    text-align: center;
+    font-family: 'Merriweather';
+    margin:0;
+    line-height: 2;
+    background-color: #F4F9F9;
+}
+
+.timeline{
+    display: block;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.timeline .heading{
+    margin-bottom: 100px;
+}
+
+.card{
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffff;
+    display: block;
+    margin: -90px 0;
+    position: relative;
+    background-color: #CCF2F4;
+
+}
+
+.card:nth-child(even){
+    margin-left:auto;
+
+}
+
+
+.card:nth-child(even):before{
+    content:'';
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #AAAAAA;
+    border-radius: 50%;
+}
+
+.card:nth-child(even):after{
+    content:  '';
+    position: absolute;
+    left: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background:#AAAAAA;
+    z-index: -1;
+}
+
+.card:nth-child(odd):before{
+    content:  '';
+    position: absolute;
+    right: -13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #AAAAAA;
+    border-radius: 50%;
+}
+
+.card:nth-child(odd):after{
+    content:  '';
+    position: absolute;
+    right: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background:#AAAAAA;
+    z-index: -1;
+}
+
+p{
+    color:#AAAAAA ;
+}
+
+h1{
+    margin:0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: #A4EBF3;
+}
+
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
+.work-top-section{
+    width: 100%;
+    background-color:#CCF2F4;
+    margin: auto 0 auto 0;
+}
+
+.navbar{
+    width:65%;
+    margin: 0 auto 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 15px;
+    padding-left: 35px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 15px;
+    font-family: 'Merriweather';
+}
+
+.bottom-container{
+    background-color:#CCF2F4 ;
+    padding: 50px 0 20px;
+}
+
+.exp-header{
+    font-size: 5em;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+

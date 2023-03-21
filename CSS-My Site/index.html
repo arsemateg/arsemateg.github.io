@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+   
+    <title>Arsema Tegegne</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <div class="top-container">
+        <div class = "navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="background.html">BACKGROUND</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="work.html">WORK EXPERIENCE</a></li>
+            </ul>
+            <img src="images/play.png" id="icon">
+        </div>
+        <div class = "butterflies">
+          <img class="butterfly2" src="images/butterflies.png" alt="butterfly picture">
+        </div>
+    <h1 class = "name">Hi, I'm Arsema.</h1>
+        <div class = "butterflies">
+          <img class="butterfly" src="images/butterflies.png" alt="butterfly picture">
+        </div>
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profile-emoticon" src="images/woman-modified.png" alt="profile-emoticon">
+          <h2>Selam.</h2>
+          <p class = "intro" >I'm Arsema, and I am a programmer. I was born in Ethiopia, raised in Malawi, and now I am currently living in the 
+            beautiful state of Maryland. 
+        </div>
+        <hr>
+        <div class="about">
+          <h2>About Me</h2>
+          <div class="about-row">
+            <img class="pc-img" src="images/pc-monitor.png" alt="">
+            <h3>Computer Science</h3>
+            <p>I recenty joined the world of computer science in my education, and I could not be more excited for my future in it. 
+              So far, I have found myself passionate in web development and data science. I love that in this field, you can't ever stop learning.
+            </p>
+          </div>
+          <div class="about-row">
+            <img class="tv-img" src="images/tv.png" alt="tv-img">
+            <h3>Movies and Shows</h3>
+            <p>One of my favorite things to do is watch movies. My favorite movie is the Lion King, and my favorite show is Modern Family. My idea of relaxation
+              is sitting back and turning on a comforting movie. I could do it for hours and hours.
+            </p>
+          </div>
+          <div class="about-row">
+            <img class="shoes-img" src="images/shoes.png" alt="shoe-picture">
+            <h3>Jogging</h3>
+            <p>I persoanlly believe everyone should get into the habit of jogging. I jog as a form of therapy. My ideal times are at sunrise or sunset, but never when the sun is fully out.
+              There are many things I love about jogging, but mainly, the feeling of listeing to your favorite music, controlling your breathing, letting go, and just running is a feeling that is unbeatable.
+            </p>
+          </div>
+        </div>
+        <!--<hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>-->
+    </div>
+      
+      
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Arsema Tegegne.</p>
+        <p style = "font-size: x-small;">Icon by Vitaly Gorbachev from ww.flaticon.com, Icon by Icon by June Design from ww.flaticon.com, Icon by Freepick from ww.flaticon.com, Icon by DinosoftLabs from ww.flaticon.com, Way Home by Tokyo Music Walker | https://soundcloud.com/user-356546060
+            Music promoted by https://www.chosic.com/free-music/all/
+            Creative Commons CC BY 3.0
+            https://creativecommons.org/licenses/by/3.0/, Sunset Landscape by Keys of Moon | https://soundcloud.com/keysofmoon
+            Music promoted by https://www.chosic.com/free-music/all/
+            Creative Commons CC BY 4.0
+            https://creativecommons.org/licenses/by/4.0/
+             </p>
+    </div>
+    
+    <audio id="mySong">
+
+        <source src="Way-Home.mp3" type="audio/mp3">
+
+
+    </audio>
+
+    <script>
+        var mySong = document.getElementById("mySong")
+        var icon = document.getElementById("icon")
+
+        icon.onclick = function(){
+            if(mySong.paused){
+                mySong.play();
+                icon.src="images/pause.png";
+            }else{
+                mySong.pause();
+                icon.src="images/play.png";
+            }
+        }
+
+
+
+    </script>
+
+</body>
+</html>
